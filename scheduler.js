@@ -1,21 +1,19 @@
 'use strict';
 
 const CronJob = require('cron').CronJob;
-const moment = require('moment');  
-const notification = require('./workers/notifications');
+const notificationsWorker = require('./workers/notificationsWorker');
+const moment = require('moment');
 
-const schedulerTimer = () => {
+const schedulerFactory = function() {
   return {
-    start: function(){
-      new CronJob('00 * * * * *', function(){ 
-        console.log("Running send notfication worker for" + moment().format());
-        notification.run();
-
+    start: function() {
+      new CronJob('00 * * * * *', function() {
+        console.log('Running Send Notifications Worker for ' +
+          moment().format());
+        notificationsWorker.run();
       }, null, true, '');
     },
   };
 };
 
-
-
-module.exports = schedulerTimer(); 
+module.exports = schedulerFactory();

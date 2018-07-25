@@ -1,32 +1,87 @@
-# Leave!
+<a href="https://www.twilio.com">
+  <img src="https://static0.twilio.com/marketing/bundles/marketing/img/logos/wordmark-red.svg" alt="Twilio" width="250" />
+</a>
 
-Leave! is an app that allows the user to signup and input their home address. The user should then create destinations and times they wish to reach those destinations. A text message will then be sent to the user 15 minutes prior to the time they should leave to reach their destination at the arrival time they specified. 
-Leave! uses Google Maps and Google Distance Matrix APIs to ensure that the information is relevant and up-to-date. Twilio is used to send the text message to the phone number provided during sign up.
+# Appointment Reminders. Powered by Twilio - Node.js/Express
 
-## Tech Requirements
-
-* React
-* CSS & Reactstrap
-* Javascript
-* Resources- users and locations
-* Auth
-* Third party APIs: Twilio, Google maps, Google distance matrix
-
-## Wireframes
-
-![Sign Up Page](public/assets/ScreenShot2018-05-29at2.30.01PM.png)
-![Sign In Page](public//assetsScreenShot2018-05-29at2.29.41PM.png)
-![Profile Page](public/assets/ScreenShot2018-05-29at2.29.20PM.png)
-![Dashboard Page](public/assets/ScreenShot2018-05-29at2.28.04PM.png)
+[![Build
+Status](https://travis-ci.org/TwilioDevEd/appointment-reminders-node.svg?branch=master)](https://travis-ci.org/TwilioDevEd/appointment-reminders-node)
 
 
-## To Download and Run Locally
-Fork a copy of this repo, make sure to run npm install to install all dependencies then fork and clone the backend: [here](https://github.com/410dood/django-rest). Make sure to create a local database:
+Use Twilio to create automatic appointment reminders for your business users. For a step-by-step tutorial see [twilio docs](https://www.twilio.com/docs/tutorials/walkthrough/appointment-reminders/node/express).
+
+
+## Local development
+
+First you need to install [Node.js](http://nodejs.org/).
+
+1. This sample application stores data in a [MongoDB](https://www.mongodb.org/) database using [Mongoose](http://mongoosejs.com/). You can download and run MongoDB yourself (on OS X, Linux or Windows).
+
+   On OS X, maybe the easiest way to get MongoDB running locally is to install it via [Homebrew](http://brew.sh/).
+
+   ```bash
+   brew install mongodb
+   ```
+   You should then be able to run a local server with:
+
+   ```bash
+   mongod
+   ```
+
+To run the app locally:
+
+1. Clone this repository and `cd` into it
+
+   ```bash
+   git clone git@github.com:TwilioDevEd/appointment-reminders-node.git
+
+   cd appointment-reminders-node
+   ```
+
+1. Install dependencies
+
+    ```bash
+    npm install
+    ```
+
+1. Copy the sample configuration file and edit it to match your configuration
+
+   ```bash
+   cp .env .env.local
+   ```
+   You can find your `TWILIO_ACCOUNT_SID` and `TWILIO_AUTH_TOKEN` in your
+   [Twilio Account Settings](https://www.twilio.com/console).
+   You will also need a `TWILIO_PHONE_NUMBER`, which you may find [here](https://www.twilio.com/console/phone-numbers/incoming).
+
+   Run `source .env.local` to export the environment variables
+
+1. Run the application
+
+    ```bash
+    npm start
+    ```
+    Alternatively you might also consider using [nodemon](https://github.com/remy/nodemon) for this. It works just like
+    the node command but automatically restarts your application when you change any source code files.
+
+    ```bash
+    npm install -g nodemon
+    nodemon ./bin/www
+    ```
+
+1. Check it out at [http://localhost:3000](http://localhost:3000)
+
+That's it
+
+## Run the tests
+
+You can run the tests locally by typing
+
+```bash
+npm test
 ```
-$ psql
-> CREATE DATABASE leave;
-> CREATE USER leaveuser WITH PASSWORD 'leave';
-GRANT ALL PRIVILEGES ON DATABASE leave TO leaveuser;
-> \q
-```
 
+## Meta
+
+* No warranty expressed or implied. Software is as is. Diggity.
+* [MIT License](http://www.opensource.org/licenses/mit-license.html)
+* Lovingly crafted by Twilio Developer Education.

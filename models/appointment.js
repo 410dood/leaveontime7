@@ -7,6 +7,24 @@ let moment = require("moment-timezone");
 let now = moment();
 console.log(now);
 
+
+const accountSid = "ACde3438dfd2ca578a6e66d36c709550db";
+const authToken =  "2b4eff9839d75c4a21fd509e34a83ebe";
+var twilioPhoneNumber = '+16672135463'
+
+var twilio = require('twilio');
+
+var client = new twilio(accountSid, authToken);
+
+client.messages.create({
+    body: 'Hello from Node',
+    to: '+4105071359',  // Text this number
+    from: '+16672135463' // From a valid Twilio number
+})
+    .then((message) => console.log(message.sid));
+
+
+
 const appointmentSchema = new mongoose.Schema({
   appointmentName: {
     type: String,
@@ -66,9 +84,6 @@ appointmentSchema.statics.sendNotifications = function(cb) {
                           ).asMinutes()));
       }
     });
-    const twilioAccountSid = "ACde3438dfd2ca578a6e66d36c709550db";
-    const twilioAuthToken =  "2b4eff9839d75c4a21fd509e34a83ebe";
-    var twilioPhoneNumber = '+16672135463'
 
     function sendNotifications(appointments) {
 

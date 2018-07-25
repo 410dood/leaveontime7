@@ -1,10 +1,296 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4630dab7-4a6c-4c67-b149-a7a52f4f9f76" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controllers/apptController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controllers/userController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/appointment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scheduler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workers/notifications.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leaveontime7/.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leaveontime7/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leaveontime7/.idea/leave7.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leaveontime7/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leaveontime7/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leaveontime7/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leaveontime7/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leaveontime7/client/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/client/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leaveontime7/client/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/client/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leaveontime7/client/build/asset-manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leaveontime7/client/build/assets/ScreenShot2018-05-29at2.28.04PM.png" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/assets/ScreenShot2018-05-29at2.28.04PM.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leaveontime7/client/build/assets/ScreenShot2018-05-29at2.29.20PM.png" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/assets/ScreenShot2018-05-29at2.29.20PM.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leaveontime7/client/build/assets/ScreenShot2018-05-29at2.29.41PM.png" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/assets/ScreenShot2018-05-29at2.29.41PM.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leaveontime7/client/build/assets/ScreenShot2018-05-29at2.30.01PM.png" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/assets/ScreenShot2018-05-29at2.30.01PM.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leaveontime7/client/build/assets/background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leaveontime7/client/build/assets/backgroundImage.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leaveontime7/client/build/assets/github.png" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/assets/github.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leaveontime7/client/build/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leaveontime7/client/build/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leaveontime7/client/build/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leaveontime7/client/build/service-worker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leaveontime7/client/build/static/css/main.c75e8c1d.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leaveontime7/client/build/static/css/main.c75e8c1d.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leaveontime7/client/build/static/js/main.0c3026f1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leaveontime7/client/build/static/js/main.0c3026f1.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leaveontime7/client/public/assets/ScreenShot2018-05-29at2.28.04PM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leaveontime7/client/public/assets/ScreenShot2018-05-29at2.29.20PM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leaveontime7/client/public/assets/ScreenShot2018-05-29at2.29.41PM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leaveontime7/client/public/assets/ScreenShot2018-05-29at2.30.01PM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leaveontime7/client/public/assets/background.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/assets/background.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leaveontime7/client/public/assets/backgroundimage.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/assets/backgroundimage.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leaveontime7/client/public/assets/github.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leaveontime7/client/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leaveontime7/client/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leaveontime7/client/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leaveontime7/client/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leaveontime7/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leaveontime7/client/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leaveontime7/client/src/Components/Appointment/Appointment.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/Appointment/Appointment.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leaveontime7/client/src/Components/Appointment/Appointment.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/Appointment/Appointment.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leaveontime7/client/src/Components/Appointment/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/Appointment/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leaveontime7/client/src/Components/AppointmentsWell/AppointmentsWell.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/AppointmentsWell/AppointmentsWell.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leaveontime7/client/src/Components/AppointmentsWell/AppointmentsWell.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/AppointmentsWell/AppointmentsWell.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leaveontime7/client/src/Components/AppointmentsWell/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/AppointmentsWell/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leaveontime7/client/src/Components/ApptForm/ApptForm.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/ApptForm/ApptForm.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leaveontime7/client/src/Components/ApptForm/ApptForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/ApptForm/ApptForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leaveontime7/client/src/Components/ApptForm/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/ApptForm/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leaveontime7/client/src/Components/Hero/Hero.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/Hero/Hero.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leaveontime7/client/src/Components/Hero/Hero.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/Hero/Hero.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leaveontime7/client/src/Components/Hero/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/Hero/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leaveontime7/client/src/Components/Jumbotron/Jumbotron.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/Jumbotron/Jumbotron.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leaveontime7/client/src/Components/Jumbotron/Jumbotron.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/Jumbotron/Jumbotron.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leaveontime7/client/src/Components/Jumbotron/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/Jumbotron/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leaveontime7/client/src/Components/LinkGoogleMaps/LinkGoogleMaps.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/LinkGoogleMaps/LinkGoogleMaps.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leaveontime7/client/src/Components/LinkGoogleMaps/LinkGoogleMaps.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/LinkGoogleMaps/LinkGoogleMaps.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leaveontime7/client/src/Components/LinkGoogleMaps/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/LinkGoogleMaps/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leaveontime7/client/src/Components/LoginForm/LoginForm.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/LoginForm/LoginForm.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leaveontime7/client/src/Components/LoginForm/LoginForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/LoginForm/LoginForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leaveontime7/client/src/Components/LoginForm/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/LoginForm/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leaveontime7/client/src/Components/Map/Map.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/Map/Map.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leaveontime7/client/src/Components/Map/Map.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/Map/Map.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leaveontime7/client/src/Components/Map/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/Map/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leaveontime7/client/src/Components/NavBar/NavBar.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/NavBar/NavBar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leaveontime7/client/src/Components/NavBar/NavBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/NavBar/NavBar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leaveontime7/client/src/Components/NavBar/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/NavBar/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leaveontime7/client/src/Pages/Landing/Landing.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Pages/Landing/Landing.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leaveontime7/client/src/Pages/Landing/Landing.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Pages/Landing/Landing.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leaveontime7/client/src/Pages/Landing/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Pages/Landing/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leaveontime7/client/src/Pages/NoMatch/NoMatch.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Pages/NoMatch/NoMatch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leaveontime7/client/src/Pages/NoMatch/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Pages/NoMatch/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leaveontime7/client/src/Pages/User/User.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Pages/User/User.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leaveontime7/client/src/Pages/User/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Pages/User/User.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leaveontime7/client/src/Pages/User/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Pages/User/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leaveontime7/client/src/Utils/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Utils/api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leaveontime7/client/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leaveontime7/client/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leaveontime7/client/src/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leaveontime7/client/src/registerServiceWorker.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/registerServiceWorker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leaveontime7/client/yarn.lock" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name=".env" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.env">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="yarn.lock" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/client/yarn.lock">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="417" column="15" lean-forward="true" selection-start-line="417" selection-start-column="15" selection-end-line="417" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/client/node_modules" />
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
   <component name="NodePackageJsonFileManager">
-    <packageJsonPaths />
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/client/package.json" />
+      <path value="$PROJECT_DIR$/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="840" />
+    <option name="y" value="23" />
+    <option name="width" value="840" />
+    <option name="height" value="1027" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="leaveontime7" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leaveontime7" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leaveontime7" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leaveontime7" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4630dab7-4a6c-4c67-b149-a7a52f4f9f76" name="Default" comment="" />
+      <created>1532470319203</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1532470319203</updated>
+      <workItem from="1532470320390" duration="1735000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1735000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="840" y="23" width="840" height="1027" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/yarn.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="417" column="15" lean-forward="true" selection-start-line="417" selection-start-column="15" selection-end-line="417" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

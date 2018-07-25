@@ -1,85 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4630dab7-4a6c-4c67-b149-a7a52f4f9f76" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/leaveontime7.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leaveontime7.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/assets/ScreenShot2018-05-29at2.28.04PM.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/assets/ScreenShot2018-05-29at2.29.20PM.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/assets/ScreenShot2018-05-29at2.29.41PM.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/assets/ScreenShot2018-05-29at2.30.01PM.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/assets/background.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/assets/backgroundimage.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/assets/github.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/Components/Appointment/Appointment.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/Components/Appointment/Appointment.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/Components/Appointment/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/Components/AppointmentsWell/AppointmentsWell.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/Components/AppointmentsWell/AppointmentsWell.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/Components/AppointmentsWell/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/Components/ApptForm/ApptForm.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/Components/ApptForm/ApptForm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/Components/ApptForm/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/Components/Hero/Hero.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/Components/Hero/Hero.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/Components/Hero/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/Components/Jumbotron/Jumbotron.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/Components/Jumbotron/Jumbotron.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/Components/Jumbotron/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/Components/LinkGoogleMaps/LinkGoogleMaps.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/Components/LinkGoogleMaps/LinkGoogleMaps.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/Components/LinkGoogleMaps/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/Components/LoginForm/LoginForm.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/Components/LoginForm/LoginForm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/Components/LoginForm/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/Components/Map/Map.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/Components/Map/Map.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/Components/Map/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/Components/NavBar/NavBar.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/Components/NavBar/NavBar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/Components/NavBar/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/Pages/Landing/Landing.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/Pages/Landing/Landing.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/Pages/Landing/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/Pages/NoMatch/NoMatch.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/Pages/NoMatch/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/Pages/User/User.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/Pages/User/User.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/Pages/User/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/Utils/api.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/registerServiceWorker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/yarn.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/apptController.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/userController.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/appointment.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/user.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api/userAndAppt.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scheduler.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workers/notifications.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
-    </list>
+    <list default="true" id="4630dab7-4a6c-4c67-b149-a7a52f4f9f76" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -110,7 +32,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".env" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".env" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.env">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
@@ -128,6 +50,13 @@
       </file>
       <file leaf-file-name="appointments.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/appointments.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-249" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="datetime-picker.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/js/datetime-picker.js">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
@@ -149,11 +78,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package-lock.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package-lock.json">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
@@ -163,11 +87,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="www" pinned="false" current-in-tab="false">
+      <file leaf-file-name="www" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bin/www">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1470">
-              <caret line="98" column="22" selection-start-line="98" selection-end-line="99" />
+            <state relative-caret-position="292">
+              <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -260,6 +184,12 @@
               <item name="Root" type="cbb8eebc:String" user="Root" />
               <item name="leaveontime7" type="cbb8eebc:String" user="leaveontime7" />
               <item name="public" type="cbb8eebc:String" user="public" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="leaveontime7" type="cbb8eebc:String" user="leaveontime7" />
+              <item name="public" type="cbb8eebc:String" user="public" />
+              <item name="css" type="cbb8eebc:String" user="css" />
             </path>
             <path>
               <item name="Root" type="cbb8eebc:String" user="Root" />
@@ -362,12 +292,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1532470319203</updated>
-      <workItem from="1532470320390" duration="11270000" />
+      <workItem from="1532470320390" duration="11779000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11270000" />
+    <option name="totallyTimeSpent" value="11779000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="840" height="1027" extended-state="0" />
@@ -616,9 +546,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/datetime-picker.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/appoinment.spec.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-300" />
@@ -662,16 +589,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/www">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1470">
-          <caret line="98" column="22" selection-start-line="98" selection-end-line="99" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/appointments.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/workers/notificationsWorker.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -695,6 +612,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="82" lean-forward="true" selection-end-line="5" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/appointments.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-249" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/datetime-picker.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/www">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
         </state>
       </provider>
     </entry>

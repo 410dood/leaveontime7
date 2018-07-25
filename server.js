@@ -28,14 +28,11 @@ app.get('*', function (req, res) {
 });
 
 //set up promises with Mongoose
-mongoose.Promise = global.Promise = global.Promise;
+mongoose.Promise = global.Promise;
 
 //Connect to MongoDB
 mongoose.connect(
-  process.env.MONGODB_URI || "mongodb://localhost/leaveontime2",
-  {
-    useMongoClient: true
-  }
+  process.env.MONGODB_URI || "mongodb://localhost/leaveontime2"
 );
 
 const db = mongoose.connection;

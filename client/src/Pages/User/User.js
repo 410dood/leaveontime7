@@ -41,8 +41,8 @@ class User extends Component {
         <div className="row">
           <AppointmentsWell user={user}/>
         </div>  
-        <br></br>
-        <br></br>
+        <br/>
+        <br/>
       </div>
     );
   }

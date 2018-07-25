@@ -197,19 +197,19 @@ class LoginForm extends Component {
               <button type="button" className="close" onClick={this.closeModal}>&times;</button>
               <h4 id="SignUpForm" className="modal-title">Sign Up Form</h4>
             </div>
-            <input id="name" type="text" placeholder="firstname" value={this.state.signUpFirstName} name="signUpFirstName" onChange={this.handleInputChange}  className="loginHover"></input>
+            <input id="name" type="text" placeholder="firstname" value={this.state.signUpFirstName} name="signUpFirstName" onChange={this.handleInputChange}  className="loginHover"/>
                 {this.state.isSignUpFirstNameEmpty &&
                   <div id="error-first-name-left-empty" className={!this.state.isSignUpFirstNameEmpty ? "error-div-signup invisible" : "error-div-signup"}>
                     <p className="error text-center">Please provide your first name!</p>
                   </div>
                 }
-            <input id="name" type="text" placeholder="lastname" value={this.state.signUpLastName} name="signUpLastName" onChange={this.handleInputChange}  className="loginHover"></input>
+            <input id="name" type="text" placeholder="lastname" value={this.state.signUpLastName} name="signUpLastName" onChange={this.handleInputChange}  className="loginHover"/>
                     {this.state.isSignUpLastNameEmpty &&
                   <div id="error-last-name-left-empty" className={!this.state.isSignUpLastNameEmpty ? "error-div-signup invisible" : "error-div-signup"}>
                     <p className="error text-center">Please provide your last name!</p>
                   </div>
                 }
-            <input id="name" type="email" placeholder="email" value={this.state.signUpEmail} name="signUpEmail" onChange={this.handleInputChange}  className="loginHover"></input>
+            <input id="name" type="email" placeholder="email" value={this.state.signUpEmail} name="signUpEmail" onChange={this.handleInputChange}  className="loginHover"/>
                 {this.state.isSignUpEmailEmpty &&
                   <div id="error-email-left-empty" className="error-div-signup">
                     <p className="error text-center">Please provide your email!</p>
@@ -225,33 +225,36 @@ class LoginForm extends Component {
                     <p className="error text-center">Email is not valid!</p>
                   </div>
                 }
-            <input id="name" type="password" placeholder="password" value={this.state.signUpPassword} name="signUpPassword" onChange={this.handleInputChange}  className="loginHover"></input>
+            <input id="name" type="password" placeholder="password" value={this.state.signUpPassword} name="signUpPassword" onChange={this.handleInputChange}  className="loginHover"/>
                 {this.state.isSignUpPasswordEmpty &&
                   <div id="error-password-left-empty" className={!this.state.isSignUpPasswordEmpty ? "error-div-signup invisible" : "error-div-signup"}>
                     <p className="error text-center">Please provide your password!</p>
                   </div>
                 }
-            <input id="name" type="phonenumber" placeholder="123-456-7899" value={this.state.signUpPhone} name="signUpPhone" onChange={this.handleInputChange}  className="loginHover"></input>
+            <input id="name" type="phonenumber" placeholder="123-456-7899" value={this.state.signUpPhone} name="signUpPhone" onChange={this.handleInputChange}  className="loginHover"/>
                 {this.state.isSignUpPhoneEmpty &&
                   <div id="error-phone-left-empty" className={!this.state.isSignUpPhoneEmpty ? "error-div-signup invisible" : "error-div-signup"}>
                     <p className="error text-center">Please provide your mobile number!</p>
                   </div>
                 } 
-            <input id="submit" type="submit" value="Submit!" className="loginHover" onClick={this.handleSignupFormSubmit}></input>
+            <input id="submit" type="submit" value="Submit!" className="loginHover" onClick={this.handleSignupFormSubmit}/>
           </form>
         </Modal>
         <section className="loginSection">
           <header className="animated headShake">Log In</header>
           <form id="form" className="topBefore animated headShake"> 
-            <input id="name" type="email" placeholder="email" value={this.state.loginEmail} name="loginEmail" onChange={this.handleInputChange} type="text" id="input-email" className="loginHover"></input>
-              {this.state.isLoginEmailEmpty &&
+            <input id="name" type="email" placeholder="email" value={this.state.loginEmail} name="loginEmail" onChange={this.handleInputChange} className="loginHover"/>
+              {/*<input id="name" type="email" placeholder="email" value={this.state.loginEmail} name="loginEmail" onChange={this.handleInputChange} type="text" id="input-email" className="loginHover"></input>*/}
+
+            {this.state.isLoginEmailEmpty &&
                 <div id="error-email-left-empty">
                   <p className="error text-center">Please enter your email address!</p>
                 </div>
               }
-            <input id="email" type="password" placeholder="password" value={this.state.loginPassword} name="loginPassword" onChange={this.handleInputChange} type="password" id="input-password" className="loginHover"></input>
-              
-              {this.state.isLoginPasswordEmpty &&
+            <input id="email" type="password" placeholder="password" value={this.state.loginPassword} name="loginPassword" onChange={this.handleInputChange} className="loginHover"/>
+              {/*<input id="email" type="password" placeholder="password" value={this.state.loginPassword} name="loginPassword" onChange={this.handleInputChange} type="password" id="input-password" className="loginHover"/>*/}
+
+            {this.state.isLoginPasswordEmpty &&
                 <div id="error-password-left-empty">
                   <p className="error text-center">Please enter your password!</p>
                 </div>
@@ -261,7 +264,7 @@ class LoginForm extends Component {
                   <p className="error text-center">The password is incorrect!</p>
                 </div>
               }  
-            <input id="submit" type="submit" value="Sign In!" className="loginHover" onClick={this.handleLoginFormSubmit}></input>
+            <input id="submit" type="submit" value="Sign In!" className="loginHover" onClick={this.handleLoginFormSubmit}/>
 
             {!this.state.isValidEmail &&
               <div id="error-username-not-exist">
@@ -270,7 +273,7 @@ class LoginForm extends Component {
             }
           </form>
           <div className="col-sm-offset-2 col-sm-5">
-            <hr></hr>
+            <hr/>
             <p id="need-acct" className="animated bounceInLeft">Need an account?<span><a id="sign-up" onClick={this.openModal}>&nbsp;&nbsp;&nbsp;SIGN UP</a></span></p>
           </div>
         </section>

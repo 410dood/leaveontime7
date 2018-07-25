@@ -21,7 +21,6 @@ class MapRender extends Component {
         lat : this.state.lat, 
         lng : this.state.lng
       },
-      //center: {lat: 37.7749, lng: -122.431297},
       zoom: 10,
       mapTypeId: 'roadmap',
     });
@@ -40,7 +39,6 @@ class MapRender extends Component {
 
     let marker = new window.google.maps.Marker({
       map: map,
-      //position: {lat: 37.7749, lng: -122.431297},
       position: {
         lat : this.state.lat, 
         lng : this.state.lng

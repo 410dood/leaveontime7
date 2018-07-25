@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,500);
+
 .form-control:focus{
   border-color: black;  
   box-shadow: none; 
@@ -11,8 +13,6 @@
 .react-datepicker__input-container {
   width : 100%;
 }
-
-@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,500);
 
 /*html{
   background-color: #f1f1f1;

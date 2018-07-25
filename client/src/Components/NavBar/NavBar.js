@@ -23,9 +23,6 @@ class NavBar extends Component {
               <li className={window.location.pathname === "/user" ? "active" : ""}>
                 <Link className="navbar-title animated headShake" to="/user">Home</Link>
               </li>
-              {/*<li className={window.location.pathname === "/about" ? "active" : ""}>*/}
-                {/*<Link className="navbar-title animated headShake" to="/about">About</Link>*/}
-              {/*</li>*/}
               <li className={window.location.pathname === "/" ? "active" : ""}>
                 <Link className="navbar-title animated headShake" to="/" onClick={this.handleSignOut}>Sign Out</Link>
               </li>

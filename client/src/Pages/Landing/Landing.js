@@ -11,9 +11,9 @@ const Landing = props =>
 
     <div className="arrow-container animated fadeInDown">
       <div className="arrow-2">
-        <a href='#foo'><i className="glyphicon glyphicon-arrow-down"></i></a>
+        <a href='#foo'><i className="glyphicon glyphicon-arrow-down"/></a>
       </div>
-      <div className="arrow-1 animated hinge infinite zoomIn"></div>
+      <div className="arrow-1 animated hinge infinite zoomIn"/>
     </div>
 
 
@@ -21,8 +21,8 @@ const Landing = props =>
 
 
     </Hero>
-    <br></br>
-    <br></br>
+    <br/>
+    <br/>
     <div className="container">
       <div className="col-sm-8 col-sm-offset-2">
         <a id="foo"><LoginForm /></a>
